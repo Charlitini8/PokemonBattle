@@ -25,5 +25,6 @@ MonoBehaviour:
     animationName: Attack2
     minDamage: 40
     maxDamage: 70
-    chargeParticles: {fileID: 6817210763119628337, guid: 7b1ca3ca60ccf7f4a87634b0ee55de26, type: 3}
-    attackParticles: {fileID: 0}
+    chargeParticles: {fileID: 2950655085878521979, guid: a6e724c6b458d1b45af88883d6e05faa, type: 3}
+    attackParticles: {fileID: 6817210763119628337, guid: 7b1ca3ca60ccf7f4a87634b0ee55de26, type: 3}
+  chargeTime: 2
