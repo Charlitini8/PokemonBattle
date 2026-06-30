@@ -17,13 +17,20 @@ MonoBehaviour:
   attacks:
   - name: Fire Pumch
     animationName: Attack1
+    attackSoundName: Charizard_attack1
     minDamage: 50
     maxDamage: 80
     chargeParticles: {fileID: 5245491582841456251, guid: 3c3a023e894dcf442a56d8204362f09b, type: 3}
     attackParticles: {fileID: 6273950995757743476, guid: 9d495b1415a06d6468eb9e45ea7a4258, type: 3}
   - name: Fire Throw
     animationName: Attack2
+    attackSoundName: Charizard_attack2
     minDamage: 40
     maxDamage: 60
     chargeParticles: {fileID: 5245491582841456251, guid: 3c3a023e894dcf442a56d8204362f09b, type: 3}
     attackParticles: {fileID: 6273950995757743476, guid: 9d495b1415a06d6468eb9e45ea7a4258, type: 3}
+  chargeTime: 2
+  appearParticles: {fileID: 6273950995757743476, guid: 9d495b1415a06d6468eb9e45ea7a4258, type: 3}
+  appearSoundName: Charizard_appear
+  damageSoundName: Charizard_damage
+  deadSoundName: Charizard_dead

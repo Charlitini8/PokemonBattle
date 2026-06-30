@@ -141,8 +141,8 @@ ModelImporter:
       name: Charge
       takeName: bd_charge
       internalID: -5941109824986188948
-      firstFrame: 0
-      lastFrame: 20
+      firstFrame: 3.7
+      lastFrame: 15
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
