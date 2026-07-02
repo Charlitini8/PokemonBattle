@@ -17,20 +17,20 @@ MonoBehaviour:
   attacks:
   - name: Explosion Attack
     animationName: Attack1
-    attackSoundName: 
+    attackSoundName: Katress_attack1
     minDamage: 60
     maxDamage: 80
     chargeParticles: {fileID: 2950655085878521979, guid: a6e724c6b458d1b45af88883d6e05faa, type: 3}
     attackParticles: {fileID: 6817210763119628337, guid: 7b1ca3ca60ccf7f4a87634b0ee55de26, type: 3}
   - name: Fantasme Punch
     animationName: Attack2
-    attackSoundName: 
+    attackSoundName: Katress_attack2
     minDamage: 40
     maxDamage: 70
     chargeParticles: {fileID: 2950655085878521979, guid: a6e724c6b458d1b45af88883d6e05faa, type: 3}
     attackParticles: {fileID: 6817210763119628337, guid: 7b1ca3ca60ccf7f4a87634b0ee55de26, type: 3}
   chargeTime: 2
   appearParticles: {fileID: 6817210763119628337, guid: 7b1ca3ca60ccf7f4a87634b0ee55de26, type: 3}
-  appearSoundName: 
-  damageSoundName: 
-  deadSoundName: 
+  appearSoundName: Katress_appear
+  damageSoundName: Katress_damage
+  deadSoundName: Katress_dead
