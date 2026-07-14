@@ -1882,7 +1882,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &498230435
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2969,6 +2969,18 @@ MonoBehaviour:
           m_StringArgument: Hide
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 498230436}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: StopPlayback
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &969772043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3216,6 +3228,7 @@ GameObject:
   - component: {fileID: 996103132}
   - component: {fileID: 996103131}
   - component: {fileID: 996103130}
+  - component: {fileID: 996103133}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -3307,6 +3320,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &996103133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996103128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e66db57947428e4d8f2737a587162e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Billboard
 --- !u!1 &1029567722
 GameObject:
   m_ObjectHideFlags: 0
@@ -3962,6 +3987,7 @@ GameObject:
   - component: {fileID: 1416190715}
   - component: {fileID: 1416190714}
   - component: {fileID: 1416190713}
+  - component: {fileID: 1416190716}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -4053,6 +4079,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1416190716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416190711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e66db57947428e4d8f2737a587162e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Billboard
 --- !u!1 &1417116082
 GameObject:
   m_ObjectHideFlags: 0
@@ -5303,6 +5341,7 @@ GameObject:
   - component: {fileID: 2133954878}
   - component: {fileID: 2133954877}
   - component: {fileID: 2133954876}
+  - component: {fileID: 2133954879}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -5394,6 +5433,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &2133954879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133954874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e66db57947428e4d8f2737a587162e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Billboard
 --- !u!1 &2137100535
 GameObject:
   m_ObjectHideFlags: 0
@@ -5406,6 +5457,7 @@ GameObject:
   - component: {fileID: 2137100539}
   - component: {fileID: 2137100538}
   - component: {fileID: 2137100537}
+  - component: {fileID: 2137100540}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -5497,6 +5549,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &2137100540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137100535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e66db57947428e4d8f2737a587162e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Billboard
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
